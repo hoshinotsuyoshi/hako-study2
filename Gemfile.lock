@@ -1,0 +1,27 @@
+GIT
+  remote: https://github.com/hoshinotsuyoshi/hako.git
+  revision: c97b3cd5c8ca503ed109580b5bcdfd3f7e33d298
+  ref: c97b3cd5c8ca503ed109580b5bcdfd3f7e33d298
+  specs:
+    hako (0.20.3)
+      aws-sdk (>= 2.3.22)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.6.5)
+      aws-sdk-resources (= 2.6.5)
+    aws-sdk-core (2.6.5)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.6.5)
+      aws-sdk-core (= 2.6.5)
+    jmespath (1.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hako!
+
+BUNDLED WITH
+   1.12.5
