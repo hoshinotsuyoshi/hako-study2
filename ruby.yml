@@ -1,0 +1,15 @@
+scheduler:
+  cluster: sandbox-hoshino-blue
+  region: ap-northeast-1
+  type: ecs
+app:
+  image: ruby
+  memory: 128
+  volumes_from:
+     - source_container: settings
+additional_containers:
+  settings:
+    image_tag: busybox
+    essential: false
+    memory: 4
+    name: settings
